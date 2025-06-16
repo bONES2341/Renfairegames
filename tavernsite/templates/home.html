@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block conent %}
+
+
+                <!-- Page content-->
+                <div class="container-fluid ">
+                    
+                 <i style = "margin-left:25px;"> As you crest the hill, you lay your eyes on the town below. The town of Waypoint rests in a field, with walls high and activity within, the journey to get here appears to be worth it. You make your way through the gates as the guards eye you warily... </i>
+                 <br/>
+                    <h1> Welcome to Renfaire Games!</h1>
+                    <h2>Set Course for Adventure!</h2>
+                    <p>
+                       You've stumbled upon the digital tavern of RenFaire Games-glad you made the journey! This is our quest log, our map room, our little corner of the multiverse where we share what we’re building behind the screen. Here you'll find updates on our latest projects-modules in the works, Kickstarter launches on the horizon, and tales still being inked. Soon, our humble online shop will open its doors, offering downloadable adventures and physical treasures for those brave enough to click “add to cart.”
+ 
+                    </p>
+
+                    <br/>
+                 <i style = "margin-left:25px;"> In the town square, a man bellows the day’s news to passing townsfolk - trumpeting the victories of the local army, the steady progress of the farmers in their fields, and the fine craftwork of the town’s artisans. </i>
+                 <br/>
+                    <h2>News</h2>
+                      <p>
+                       No news currently available from Renfaire Games! 
+                    </p>
+
+<div id="carouselExampleCaptions" class="carousel slide" >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'assets/temp2.png' %}" height ="250" width ="250" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>No News Today!</h5>
+        <p>Check back later!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'assets/temp2.png' %}" height ="250" width ="250" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>No News Today!</h5>
+        <p>Check back later!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'assets/temp2.png' %}" height ="250" width ="250" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>No News Today!</h5>
+        <p>Check back later!</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev btn-" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br/>
+                   
+{% endblock %}
